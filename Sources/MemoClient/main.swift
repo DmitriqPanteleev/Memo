@@ -3,7 +3,7 @@ import Memo
 
 class Test {
     @Memo
-    func factorial(value: Int) {
+    func factorial(value: Int) -> Int {
         if value == 1 {
             return 1
         }
